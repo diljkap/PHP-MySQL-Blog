@@ -2,6 +2,12 @@
 
 class UsersController extends BaseController
 {
+    public function index()
+    {
+        $this->authorize();
+        $this->users = $this->model->getAll();
+    }
+
     public function register()
     {
         if ($this->isPost) {
