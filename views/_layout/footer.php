@@ -1,6 +1,6 @@
 
     <footer>
-        (c) Blog System, 2016
+        (c) Blog System using PHP & MySQL, 2016
     </footer>
 
     <?php require_once('fill-posted-fields.php'); ?>
