@@ -7,6 +7,8 @@
     <input id="username" type="text" name="username" />
     <div><label for="password">Password:</label></div>
     <input id="password" type="password" name="password" />
+    <div><label for="password-repeat">Repeat Password:</label></div>
+    <input id="password-repeat" type="password" name="password-repeat" />
     <div><label for="username">Full name:</label></div>
     <input id="full_name" type="text" name="full_name" />
     <div><input type="submit" value="Register"/>

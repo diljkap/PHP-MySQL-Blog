@@ -10,5 +10,9 @@ class HomeController extends BaseController
 
     function view($id) {
         $this->post = $this->model->getPostById($id);
+        if(!$this->post) {
+            $this->addErrorMessage("No such post. ID = " . $id);
+            $this->redirect("");
+        }
     }
 }
